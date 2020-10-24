@@ -1,6 +1,7 @@
 package com.company;
 
 import javax.sql.rowset.serial.SQLOutputImpl;
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.sql.SQLOutput;
 
 public class Main {
@@ -26,6 +27,10 @@ public class Main {
     System.out.println(me.pet.species);
     System.out.println(dog.weight();
     System.out.println(dog.weight null);
+    People me = new People();
+    me.firstName = "Tom";
+    me.LastName = "Ala";
+    System.out.println();
 
     }
 }
